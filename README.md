@@ -2,9 +2,9 @@
 
 Pácticas con archivos y directorios, se ven diferentes posibilidades que nos ofrece el jdk para manipularlos, obtener info, leerlos, ...
 
-***Los programas deben recibir argumentos***
+  - ***Los programas deben recibir argumentos***
 
-***Existen ficheros asociados a los diferentes programas, para usarlos de ejemplo, fácil de localizarlos según su nombre (relacionado a la práctica).***
+  - ***Existen ficheros asociados a los diferentes programas, para usarlos de ejemplo, fácil de localizarlos según su nombre (relacionado a la práctica).***
 
 ## Tecnología Utilizada
 
