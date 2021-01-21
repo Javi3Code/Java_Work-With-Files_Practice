@@ -1,0 +1,9 @@
+Estamos haciendo la practica 4
+del módulo de acceso a datos.
+Se trata de recodificar ficheros de texto.
+¿Cómo vamos a comprobar el éxito del
+programa?
+Usando notepad++ para ver rápidamente la 
+codificación.
+Realizado la mañana del día 16 de Octubre,
+año 2020.

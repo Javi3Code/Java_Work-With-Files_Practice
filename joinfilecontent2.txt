@@ -1,0 +1,3 @@
+Texto del fichero2.
+Este texto se agrega al nuevo fichero, pero no antes de agregar 
+el texto del fichero 1.

@@ -1,0 +1,12 @@
+Esto es un fichero de texto para realizar
+el ejercicio 2 de acceso a datos.
+Por aquí dejo el enunciado.
+1. Desarrolla un programa en Java que busque un texto dado
+ en un fichero de texto (pasado como argumento), y 
+ que para cada aparición indique la línea 
+ y la columna en que se encuentra. cococococococo
+Realiza una gestión adecuada de las excepciones 
+indicando al usuario los errores que puedan suceder 
+en la ejecución, y documenta adecuadamente 
+cococococococo
+el programa.

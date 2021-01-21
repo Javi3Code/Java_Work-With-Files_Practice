@@ -1,0 +1,8 @@
+Este texto sirve 
+De ejemplo para realizar el ejercicio 
+5 Del módulo de acceso a datos ,bien
+Se trata de eliminar secuencias de 
+Espacios dejándolas en un solo espacio, salvo 
+Al principio de la línea que no se deja ninguno. 
+La primera letra de la línea debe transformarse a
+Mayúscula.

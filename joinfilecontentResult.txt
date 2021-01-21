@@ -1,0 +1,8 @@
+
+Texto fichero1.
+Hola buenassss, estamos escribiendo cosas 
+random para ejemplificar la actividad de unión de 
+dos ficheros de texto en uno.
+Texto del fichero2.
+Este texto se agrega al nuevo fichero, pero no antes de agregar 
+el texto del fichero 1.
