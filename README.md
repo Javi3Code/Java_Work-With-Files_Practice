@@ -25,11 +25,23 @@ Realiza una gestión adecuada de las excepciones indicando al usuario los errore
   - Enunciado de la práctica: *Desarrolla un programa en Java que busque un texto dado en un fichero de texto (pasado como argumento), y que para cada aparición indique la línea y la columna en que se encuentra.
 Realiza una gestión adecuada de las excepciones indicando al usuario los errores que puedan suceder en la ejecución, y documenta adecuadamente el programa.*
   
-- <a href=""></a>
-  - Enunciado de la práctica: **
+- <a href="https://github.com/Javi3Code/Java_Work-With-Files_Practice/tree/master/src/com/jeycode/joinfilecontent">Unión de ficheros</a>
 
-- <a href=""></a>
-  - Enunciado de la práctica: **
+  - Enunciado de la práctica: *Desarrolla un programa en Java que reciba tres argumentos (la ruta de un fichero, la ruta de otro fichero, y una ruta a un directorio) y cree un fichero nuevo en el directorio pasado como tercer argumento que sea el resultado de añadir al contenido del primer fichero el contenido del segundo fichero.
+Para realizar la operación el programa deberá comprobar previamente que no existe ningún error en los argumentos (los ficheros existen, el directorio existe…).
+Realiza una gestión adecuada de las excepciones indicando al usuario los errores que puedan suceder en la ejecución, y documenta adecuadamente el programa.*
 
-- <a href=""></a>
-  - Enunciado de la práctica: **
+- <a href="https://github.com/Javi3Code/Java_Work-With-Files_Practice/tree/master/src/com/jeycode/jencodingfilecontent">Recodificación de ficheros</a>
+
+  - Enunciado de la práctica: *Desarrolla un programa en Java que de un fichero codificado en UTF-8 que recibe como entrada (ya sea como argumento o pidiendo al usuario que introduzca la ruta) genere dos ficheros de salida con el mismo contenido del fichero de entrada, pero codificados en ISO-8859-1 y UTF-16. El fichero de entrada debe tener al menos varias vocales con tilde y la letra ñ en alguna línea.
+Comprueba que el programa funciona correctamente revisando el fichero con un programa que muestre la codificación del fichero de texto.
+Realiza una gestión adecuada de las excepciones indicando al usuario los errores que puedan suceder en la ejecución, y documenta adecuadamente el programa.*
+
+- <a href="https://github.com/Javi3Code/Java_Work-With-Files_Practice/tree/master/src/com/jeycode/rwcreatetemp">Modificación de ficheros de texto</a>
+
+  - Esta práctica contiene dos soluciones.
+    - 1.Usando createTempFile.
+    - 2.Sin usar createTemFile.
+
+  - Enunciado de la práctica: *Desarrolla un programa en Java que reciba un argumento (la ruta de un fichero de texto) y realice diversos cambios en su contenido como eliminar secuencias de espacios al principio de la línea, sustituir secuencias de espacios en otros lugares por un solo espacio, y hacer que todas las líneas empiecen por mayúscula. Para las transformaciones en el texto, puedes utilizar funcionalidad de la clase Character. Además, el fichero original debe quedar también guardado, añadiendo el sufijo _old al nombre.
+Realiza una gestión adecuada de las excepciones indicando al usuario los errores que puedan suceder en la ejecución, y documenta adecuadamente el programa.*
