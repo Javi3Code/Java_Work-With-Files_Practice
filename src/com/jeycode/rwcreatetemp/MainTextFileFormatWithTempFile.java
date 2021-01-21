@@ -158,9 +158,8 @@ public final class MainTextFileFormatWithTempFile
             TEMP_FILE_NAME = tempFile.getName();
             System.out.println("******DURANTE LA EJECUCIÓN******\nSe ha creado fichero temporal llamado " + TEMP_FILE_NAME
                                     + " en este path " + TEMP_FILE_PATH);
-            // @formatter:off
-												try (var lines = Files.lines(pathObjt); 
-																	var writter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(tempFile))))// @formatter:on
+            try (var lines = Files.lines(pathObjt);
+                 var writter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(tempFile))))
             {
                   lines.forEach(line-> writeIt(writter,formatter(line)));
             }

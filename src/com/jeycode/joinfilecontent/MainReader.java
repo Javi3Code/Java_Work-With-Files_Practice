@@ -56,18 +56,16 @@ public class MainReader
        * @param args
        */
       private static void readAndWriteOperation(String...args)
-      { // @formatter:off
+      { 
 												var directoryPath = args[2];
 												var pathFic1 = Paths.get(args[0]);
 												var pathFic2 = Paths.get(args[1]);
 												PATH_NEW_FILE = directoryPath + NEW_FIC_TXT;
 												var newFile = new File(PATH_NEW_FILE);
 												
-												try (
-  																	var linesFic1 = Files.lines(pathFic1); 
-  																	var linesFic2 = Files.lines(pathFic2);
-  																	var writter = new BufferedWriter(new FileWriter(newFile))
-															 ) // @formatter:on
+            try (var linesFic1 = Files.lines(pathFic1); 
+                 var linesFic2 = Files.lines(pathFic2);
+                 var writter = new BufferedWriter(new FileWriter(newFile))) 
             {
                   linesFic1.forEach(appendLine(writter));
                   linesFic2.forEach(appendLine(writter));

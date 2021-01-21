@@ -68,10 +68,10 @@ public class MainCoding
             var utf16File = new File(newUTF16ficPath);
             var newISO88591ficPath = FIC_ISO88591_TXT;
             var iso88591File = new File(newISO88591ficPath);
-            // @formatter:off
-												try (var lines = Files.lines(pathObjt);
-																	var utf16 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(utf16File),Charset.forName("UTF-16")));
-																 var iso88591 =new BufferedWriter(new OutputStreamWriter(new FileOutputStream(iso88591File),Charset.forName("ISO-8859-1"))))		// @formatter:on 
+            try (var lines = Files.lines(pathObjt);
+                 var utf16 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(utf16File),Charset.forName("UTF-16")));
+                 var iso88591 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(iso88591File),
+                                                                           Charset.forName("ISO-8859-1"))))
             {
                   lines.forEach(line->
                         {

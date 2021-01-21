@@ -82,9 +82,8 @@ public final class MainTextFileFormatWithoutTempFile
       private static void readFileAndWriteItInAnotherFileFormattingContent(String path) throws RWcreateTempException
       {
             var pathObjt = Paths.get(path);
-            // @formatter:off
-												try (var lines = Files.lines(pathObjt); 
-																	var writter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(ORIGINAL_FILE_NAME)))))// @formatter:on
+            try (var lines = Files.lines(pathObjt);
+                 var writter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(ORIGINAL_FILE_NAME)))))
             {
                   lines.forEach(line-> writeIt(writter,formatter(line)));
             }
