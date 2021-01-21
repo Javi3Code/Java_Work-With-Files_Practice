@@ -29,7 +29,7 @@ public final class FileMain
       private static final String NOT_IDENTATION = "";
       private File file;
 
-      /** 
+      /**
        * 
        * Method main : Metodo ejecutable. Comprueba si los args son menores a 0,
        * mayores a 2, o si son 2 y el segundo no es igual a -all, en estos casos lanza

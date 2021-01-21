@@ -13,15 +13,15 @@ public class NotFileOrDirectoryException extends Exception
 
 {
 
-						/**
-						 * 
-						 */
-						private static final long serialVersionUID = 1L;
-						public static final String NOT_A_FILE = "Error al leer el ficheros, verifique el path";
-						public static final String NOT_A_DIRECTORY = "Error al leer el directorio, verifique el path";
+      /**
+       * 
+       */
+      private static final long serialVersionUID = 1L;
+      public static final String NOT_A_FILE = "Error al leer el ficheros, verifique el path";
+      public static final String NOT_A_DIRECTORY = "Error al leer el directorio, verifique el path";
 
-						public NotFileOrDirectoryException(String message)
-						{
-												super(message);
-						}
+      public NotFileOrDirectoryException(String message)
+      {
+            super(message);
+      }
 }
